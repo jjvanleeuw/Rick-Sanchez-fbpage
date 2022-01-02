@@ -1,3 +1,16 @@
+/* Color codes:
+Navy blue: #1E3D58
+Royal blue: #057DCD
+Blue Grotto: #43B0F1 
+White: #E8EEF1
+*/
+
+
+html{
+    background-color: #057DCD;
+    
+}
+
 body{
     margin: 0;
     font-family: century, sans-serif;
@@ -6,13 +19,15 @@ img{
     Width: 120px;
     height: 160px; 
     border-radius: 20px;
+    
 }
 
 header{
-    background-color: #ECDBCE;
+    background-color: #E8EEF1;
     margin: 10px;
     padding: 20px;
     border: 4px solid black;
+    max-width: 1000px;
 }
 
 header h1{
@@ -22,28 +37,112 @@ header h1{
 header img{
     width: 180px;
     height: 240px;
-    border-radius: 30px;
+    border-radius: 70px;
+    padding: 0px;
 }
 
 .web{
-    Background-color: #fd8d03;
+    Background-color: #057DCD;
     text-align: center;
-    
     color: white;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    
+    Margin: 2px;
     padding: 2px;
     border: 2px solid black;
 
     Width: 100px;
     height: 20px;
+
+    float: right;
 }
 
-main body{
+
+/* Friends section */
+.friends{
     margin: 10px;
-    background-color: #ECDBCE;
+    background-color: #E8EEF1;
     padding: 20px;
     border: 4px solid black;
 
-    Width: 500px;
+    max-Width: 160px;
+    float: left;
 }
+
+.friends img{
+    padding: 10px;
+}
+
+.friends h2{
+    margin-top: 0px;
+}
+
+.friends div{
+    background-color: #9fd5f5;
+    width: 140px;
+    text-align: center;
+    border: 4px solid black;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.friends div text{
+    margin-bottom: 20px;
+}
+
+/* recent posts (class = recent) */
+
+.recent{
+    background-color: #E8EEF1;
+   
+    border: 4px solid black;
+    max-width: 814px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px; 
+    min-height: 1099px; 
+}
+
+.recent h2{
+    margin: 10px;
+}
+
+.recent .post-1{
+    background-color: #1E3D58;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid black;
+    min-height: 170px;
+
+    color: white;
+}
+
+.recent .post-2{
+    background-color: #1E3D58;
+    margin: 20px;
+    padding: 10px;
+    border: 4px solid black;
+    min-height: 100px;
+
+    color: white;
+}
+
+.recent img{
+    float: left; 
+    margin-right: 30px;
+}
+
+.dt{
+    
+    position: relative;
+    left: 100px;
+
+    
+
+}
+
+/* liked pages */
+.liked-pages{
+    clear: left;
+}
+
+
